@@ -48,7 +48,7 @@ config:
 # Pagination
 pagination:
   number: false
-  prev: 
+  prev:
     alwayShow: true
   next:
     alwayShow: true
@@ -56,7 +56,7 @@ pagination:
 # Sidebar
 sidebar: right
 widgets:
-  - board  
+  - board
   - category
   - tag
   - tagcloud
@@ -67,7 +67,7 @@ widgets:
 index_widgets:
 # - category
 # - tagcloud
-# - archive  
+# - archive
 
 # widget behavior
 archive_type: 'monthly'
@@ -81,14 +81,14 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
-    qrcode: images/donate/wechatpayimg.png
+    qrcode:
     title: 微信支付
   # 支付宝打赏
-  alipay: 
-    qrcode: images/donate/alipayimg.png 
+  alipay:
+    qrcode:
     title: 支付宝
 
 # Share
@@ -99,42 +99,42 @@ share:
   mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
 
 # Github
-github: 
-  username: cofess  # github username
+github:
+  username: ChenDanni  # github username
 
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: youyan  # 启用哪种评论系统
+  type:   # 启用哪种评论系统
   disqus:  # enter disqus shortname here
-  youyan: 
-    uid: 1783844 # enter youyan uid 
+  youyan:
+    uid:  # enter youyan uid
   livere:
-    uid: # enter youyan uid 
+    uid: # enter youyan uid
   gitment:
-    githubID: 
-    repo: 
-    ClientID: 
-    ClientSecret: 
+    githubID:
+    repo:
+    ClientID:
+    ClientSecret:
     lazy: false
 
 # douban 豆瓣书单
 # Api：
   # https://developers.douban.com/wiki/?title=book_v2 图书
   # https://developers.douban.com/wiki/?title=movie_v2 电影
-# books：  
+# books：
   # https://api.douban.com/v2/book/user/:name/collections?start=0&count=100 个人书单列表
-# movies: 
+# movies:
   # https://api.douban.com/v2/movie/in_theaters 正在上映的电影
   # https://api.douban.com/v2/movie/coming_soon 即将上映的电影
   # https://api.douban.com/v2/movie/subject/:id 单个电影信息
   # https://api.douban.com/v2/movie/search?q={text} 电影搜索
 douban:
-  user: # 豆瓣用户名
+  user: 141576663
   start: 0 # 从哪一条记录开始
   count: 100 # 获取豆瓣书单数据条数
-  
+
 # PV
 pv:
   busuanzi:
@@ -143,76 +143,71 @@ pv:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
     app_key: # leancloud <AppKey>
-        
+
 # wordcount
 postCount:
   enable: false
   wordcount: true  # 文章字数统计
-  min2read: true  # 阅读时长预计 
+  min2read: true  # 阅读时长预计
 
 # Plugins
 plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
   baidu_analytics: # enter Baidu Analytics hash key
-  tencent_analytics: 
-  
+  tencent_analytics:
+
 # Miscellaneous
 twitter:
 google_plus:
 fb_admins:
-fb_app_id:  
-  
+fb_app_id:
+
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
+  avatar: images/logo.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
+  author: Chen Danni
+  author_title: Nothing last forever.
   author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  location: China
+  follow: https://github.com/ChenDanni
   # Social Links
   social:
     links:
       github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
-      rss: atom.xml
+      # behance: https://www.behance.net/
+      # rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
-  # My Skills 
+  # My Skills
   skills:
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
+    Java: ★★★☆☆
     Javascript: ★★★☆☆
     HTML+CSS: ★★★☆☆
     Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    AngularJS: ★★★☆☆
+    Spring: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/ChenDanni
+    Blog: https://chendanni.github.io/
+    花瓣: http://huaban.com/nwpu83kmkm/
   # My Personal Labels
   labels:
-    - 前端
+    - 后端开发
     - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
+
   # My Personal Works
   works:
     name:
-      link: http://www.example.com
-      date: 2016
+      link: https://github.com/ChenDanni/Musician
+      date: 2017
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    ChenDanni/Musician: https://github.com/ChenDanni/Musician
