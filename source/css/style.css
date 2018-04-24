@@ -9,7 +9,7 @@
  */
 
 /**
- * 
+ *
  */
 
 /* Mixins */
@@ -485,6 +485,7 @@ h6,
 
 p {
   margin: 0 0 10px;
+  line-height: 1.8em;
 }
 
 .lead {
@@ -5525,7 +5526,7 @@ pre,
 .highlight {
   background: #fafafa;
   margin: 10px 0;
-  padding: 15px 10px;
+  padding: 10px 10px;
   overflow: auto;
   font-size: 13px;
   color: #4d4d4c;
@@ -5550,7 +5551,7 @@ pre code {
 
 .highlight {
   position: relative;
-  padding: 32px 10px 0 10px;
+  /* padding: 32px 10px 0 10px; */
   border-radius: 4px;
 }
 
@@ -5572,14 +5573,14 @@ pre code {
   content: " ";
   position: absolute;
   border-radius: 50%;
-  background: #fc625d;
+  /* background: #fc625d; */
   width: 10px;
   height: 10px;
   top: 0;
   left: 15px;
   margin-top: 11px;
-  -webkit-box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
-  box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
+  /* -webkit-box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
+  box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b; */
 }
 
 .highlight pre {
@@ -7816,7 +7817,7 @@ body.okayNav-loaded {
   }
 
   .main {
-    width: 62.5%;
+    /* width: 62.5%; */
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -8118,7 +8119,7 @@ body.okayNav-loaded {
   }
 
   .main {
-    width: 58.33333%;
+    /* width: 58.33333%; */
     padding-right: 25px;
     padding-left: 25px;
   }
@@ -8467,7 +8468,7 @@ body.okayNav-loaded {
   }
 
   .main {
-    width: 60.33333%;
+    width: 70%;
     padding-right: 30px;
     padding-left: 30px;
   }

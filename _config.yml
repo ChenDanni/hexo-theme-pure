@@ -54,14 +54,14 @@ pagination:
     alwayShow: true
 
 # Sidebar
-sidebar: right
-widgets:
-  - board
-  - category
-  - tag
-  - tagcloud
-  - archive
-  - recent_posts
+# sidebar: right
+# widgets:
+#   - board
+#   - category
+#   - tag
+#   - tagcloud
+#   - archive
+#   - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -106,12 +106,12 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type:   # 启用哪种评论系统
+  type: livere # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan:
     uid:  # enter youyan uid
   livere:
-    uid: # enter youyan uid
+    uid: MTAyMC8yOTk3MC82NTM1
   gitment:
     githubID:
     repo:
